@@ -17,7 +17,7 @@ function TourCard(props) {
                 <div className="container">
                     <div className="tour-info">
                         <h4>{props.tour.name}</h4>
-                        <div className="tour-price">${props.tour.price}</div>
+                        <div className="tour-price">{props.tour.price}</div>
                     </div>
                     <p>
                         {
